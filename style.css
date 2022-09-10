@@ -8,6 +8,22 @@ canvas {
   position: fixed;
 }
 
+.title-site {
+  text-align: center;
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0.3em;
+}
+
+hr {
+  color: #3c67e3;
+  border-radius: 50%;
+  /* width: 50%; */
+  align-self: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
 .main-container {
   position: fixed;
   z-index: 10;
@@ -20,12 +36,24 @@ canvas {
 
 .tiles-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   padding: 10px;
+  margin-top: 10vh;
 }
 .magic-card {
     padding: 50px;
     text-align: center;
+}
+
+@media (max-width:920px) {
+  .tiles-container {
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width:500px) {
+  .tiles-container {
+    grid-template-columns: auto;
+  }
 }
 
 
@@ -37,7 +65,7 @@ canvas {
 }
 
 :root {
-  --card-height: 35vh;
+  --card-height: 30vh;
   --card-width: calc(var(--card-height) / 1.5);
 }
 
@@ -47,9 +75,10 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
   padding-bottom: 2rem;
   box-sizing: border-box;
+  /* overflow-y: scroll; */
 }
 
 .card {

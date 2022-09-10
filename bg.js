@@ -104,7 +104,7 @@ let line = {
       ctx.beginPath();
       ctx.moveTo(this.x, this.y);
       ctx.lineTo(mouse.x, mouse.y);
-      ctx.stroke();
+      // ctx.stroke();
     }
   },
 };
