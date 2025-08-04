@@ -1,0 +1,37 @@
+body { margin: 0; font-family: 'Segoe UI', 'Roboto', Arial, sans-serif; background: #090e17; color: #e2e8f0; }
+.hero { background: linear-gradient(145deg,#2e335a 0,#1e2340 100%); padding: 48px 0 32px 0; text-align: center; }
+.hero .avatar img { width: 120px; border-radius: 50%; border: 4px solid #14203b; background: #fff; margin-bottom: 12px;}
+.hero h1 { margin: 16px 0 4px 0; font-size: 2.7rem; letter-spacing:1px;}
+.hero h2 { color: #74eaff; font-size: 1.2rem; font-weight: 400; margin-bottom: 8px;}
+.hero .tagline { max-width:480px; margin:auto; color: #a3a6b4; font-size:1.06rem;}
+.social-links a { margin: 0 8px; color: #74eaff; text-decoration: none; font-weight: 500; }
+.social-links a:hover { color: #fb7185; }
+
+section { padding: 42px 0; }
+.container { max-width: 780px; margin: auto; padding: 0 18px;}
+h2 { font-size: 1.8rem; border-left: 6px solid #6ee7b7; padding-left: 12px; margin-bottom: 18px; }
+.about p { font-size:1.13rem; color:#c5c7ce;}
+ul { list-style:none; padding:0;}
+li { margin-bottom:18px;}
+span.role { font-weight:bold; color:#a4ffea;}
+span.org { color:#f472b6; margin-left:6px;}
+span.period { color:#7dd3fc; margin-left:10px;}
+.skills .skill-list { display:flex; flex-wrap: wrap; gap:12px; }
+.skills .skill-list span { background:#23254a; color: #60a5fa; border-radius:5px; padding:4px 12px; font-size:1rem; }
+
+.certifications ul li { margin-bottom: 12px; color: #fb923c; }
+
+.projects ul li { color:#dbeafe; margin-bottom:14px; }
+.projects a { color: #74eaff; text-decoration:underline; }
+
+.recommendations p { color: #fde68a; margin-bottom: 8px;}
+
+footer.footer { padding:32px 0 12px 0; text-align:center; background: #181825;}
+footer.footer a {color:#74eaff;}
+.small {font-size:0.9rem;}
+
+@media (max-width: 600px) {
+  .container { padding:0 6px;}
+  h1{font-size:2rem;}
+  h2{font-size:1.2rem;}
+}
